@@ -22,7 +22,7 @@ const Navbar = () => {
     <nav>
       <div className='nav-center'>
         <div className='nav-header'>
-            <span  className='Flipkart'><img width="50" height="50" src="https://img.icons8.com/bubbles/50/flipkart.png" alt="flipkart"/></span>
+          <span className='Flipkart'><img width="50" height="50" src="https://img.icons8.com/bubbles/50/flipkart.png" alt="flipkart" /></span>
           <button className='nav-toggle' onClick={toggleLinks}>
             <FaBars />
           </button>
